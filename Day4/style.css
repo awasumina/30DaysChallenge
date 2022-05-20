@@ -51,3 +51,9 @@ div.gallery {
     display: table;
     clear: both;
   }
+
+  #describe{
+    color: brown;
+    font-size: 20px;
+    font-weight: 300;
+  }
