@@ -1,17 +1,11 @@
 *{
    padding : 0px;
    margin : 0px; 
-<<<<<<< HEAD
-   background-image: url("tree.png");
-   background-repeat: no-repeat;
-    /*background-size: cover;*/
-=======
 }
 body{
    background-image: url("tree.png");
    background-repeat: no-repeat;
     background-size: cover;
->>>>>>> 6811fd5f2a90bc5c10b61ae0341ff7a23c701713
 }
 
 h1{
@@ -41,16 +35,6 @@ li{
     padding : 10px;
 }
 
-<<<<<<< HEAD
-/*.nav li{
-    padding : 10px;
-    text-align: center;
-    text-decoration : none;
-}
-*/
-
-=======
->>>>>>> 6811fd5f2a90bc5c10b61ae0341ff7a23c701713
 a{
     text-decoration: none;
 }
@@ -63,16 +47,3 @@ a:hover{
     font-size: 30px ;
     color: brown;  
 }
-<<<<<<< HEAD
-
-
-
-/* #image{
-    position: absolute;
-    z-index: -1;
-    opacity: 0.5;
-    width:max-content;
-    background-size: cover;
-} */
-=======
->>>>>>> 6811fd5f2a90bc5c10b61ae0341ff7a23c701713
