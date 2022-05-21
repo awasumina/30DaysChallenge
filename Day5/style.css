@@ -1,0 +1,103 @@
+body{
+    padding : 0px;
+    margin : 0px;
+    background-image: url("bgImage.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    /*padding: 10px 0px;*/
+    margin: 40px 0px;
+
+}
+
+#username{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: 2px dotted brown;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+    font-weight: 1000;
+    font-size: 55px;
+    text-align: center;
+    margin: 300px 45px 0px 0px;
+}
+
+#Password{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: 2px dotted brown;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#remem{
+    float: left;
+color: white;
+font-weight: 200;
+}
+
+#forgot{
+    float: right;
+    color: white;
+    font-weight: 200;
+    margin: 0px 50px 0px -100px;
+}
+
+#login{
+    width:300px;
+    height: 30px;
+    opacity: 0.5;
+    background-color: red;
+    margin: 20px;
+    color: white;
+    border:1px ;
+    border-radius: 10px;
+}
+
+#or{
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    margin: 5px 150px ;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border: 1px;
+    opacity: 0.6; 
+}
+
+#fb{
+    width:150px;
+    height: 27px;
+    background-color:rgba(22, 22, 185, 0.823);
+    margin: 20px 0px;
+    color: white;
+    border:1px ;
+     
+}
+
+
+#twi{
+    width:150px;
+    height: 27px;
+    background-color:rgba(39, 197, 250, 0.823);
+    margin: 20px 40px;
+    color: white;
+    border:1px ;    
+}
+
+
