@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin : 0px;
+    background-image:url("6.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    font-family: "Whitney","Helvetica Neue","Helvetica";
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.discc{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    width: 130px;
+    align-items: center;
+}
+#logo{
+    width:45px;
+    height: 45px;  
+}
+#discord{
+    color: white;
+    font-size: 19px;
+} 
+li{
+    list-style-type: none;
+    display: inline;
+    font-size: 15px;
+    font-weight:600;
+    padding : 0 20px;
+}
+
+a{
+    color: white;
+    display: inline;
+    text-decoration: none;
+
+}
+
+#login{
+    border-radius: 45px;
+    height: 35px;
+    width: 60px;
+    border: 1px solid black ;
+    border-color: white;
+    font-size:12px ;
+}
+
+main{
+    padding: 0px;
+    margin: 120px 380px 0px  0px;
+    float:right;
+}
+
+#imagine{
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+  
+}
+p{
+    margin: 0px 0px 0px -90px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+}
+
+#download{
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    margin: 50px 0px 0px -80px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+#open{
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    margin: 20px 0px 0px 35px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+#ready{
+    margin: 470px 0 0 530px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
