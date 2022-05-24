@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #222944;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.mainBox{
+    background-color: #333a56;
+    border: 1px solid #222944;
+    height: 370px;
+    width: 370px;
+    margin: 150px 520px 0 ;
+}
+
+#meroshareImage{
+    margin: 9px 40px 0 40px ;
+}
+
+#check{
+    text-align: center;
+    margin-top: -3px;
+    color: white;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 0 30px 18px ; 
+    
+    font-size: 15px;
+
+}
+#captchaimage{
+    width: 140px;
+    height: 30px;
+    margin: 0 -30px 18px 20px; 
+}
+
+.captchaBox{
+    display: flex;
+    align-items: center; 
+}
+
+.material-symbols-outlined{
+    margin: 0 35px;
+    color: white;
+}
+
+#view{
+    width: 300px;
+    height: 35px;
+    border-radius: 7px;
+    border: 0px ;
+    margin: 0 30px 18px ;
+    color: white;
+    background-color: #4f5b8a;
+}
+
+#congrax{
+    color: green;
+    font-size: 13px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+footer{
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
