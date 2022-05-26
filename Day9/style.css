@@ -6,8 +6,9 @@ body{
 
 .left{
     float : left;
-    border: 2px solid #f5f5f5;
-    width: 310px;
+    border: 2px solid #dcdcdcaf;
+    width: 308px;
+    border-right: 4px solid #dcdcdcaf;
 }
 
 .profile{
@@ -28,7 +29,7 @@ body{
     border-radius: 20px;
     width: 296px;
     margin:0 px;
-    background-color: #f5f5f5;
+    background-color: #dcdcdc8e;
     height: 35px;
     border: white;
 }
@@ -69,16 +70,16 @@ body{
 
 .withChatHead{
     display: flex;
-    
     align-items: center;
-    border: 2px solid #f5f5f5;
+    border: 2px solid #dcdcdcaf;
+    border-bottom: 3px solid #dcdcdcaf;
     width: 1063px;
     float: right;
-    height: 45px;
+    height: 44px;
 }
 
 .mainChat{
-    border: 2px solid #f5f5f5;
+    border: 2px solid #dcdcdcaf;
     width: 1063px;
     float: right;
     height: 595px;
@@ -90,7 +91,7 @@ body{
 }
 
 .chatButtons{
-    border-radius: 24px;
+    border-radius: 17px;
     height: 37px;
     border: 1px solid white;
     margin-left: 8px;
