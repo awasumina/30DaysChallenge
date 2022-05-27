@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+
+body {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+    font-family:Poppins; 
+    background-color:#ecefee;
+    margin:0px;
+    overflow:hidden;
+}
+
+.container {
+    width:400px;
+    height:550px;
+    position: relative;
+    box-sizing: border-box;
+    padding:40px;
+    border-radius:20px;
+    background:#ecf0f3;
+    box-shadow: 15px 15px 20px 3px #cbced1, -15px -15px 20px 2px #fbfbfa;
+    /* border: 1px solid black; */
+}
+
+.brand_logo {
+    height:100px;
+    width:100px;
+    background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+    margin:auto;
+    border-radius:50%;
+    box-sizing:border-box;
+    box-shadow: 8px 8px 10px #cbced1, -8px -8px 10px #fbfbfa;
+}
+
+.brand_name {
+    font-weight:900;
+    margin-top:8px;
+    font-size: 2rem;
+    color:#1d92f2;
+    letter-spacing: 1px;
+}
+
+.inputs {
+    text-align:left;
+    margin-top:10px;
+}
+
+label, input, button{
+    display:block;
+    width:100%;
+    padding:0px;
+    border:none;
+    outline:none;
+    box-sizing:boder-box;
+    
+}
+
+label {
+    margin-bottom:4px;
+}
+
+label:nth-of-type(2) {           /*every <label> element that is 2nd of its parent(only password ko margin chai ajhai tala lyako */
+    margin-top:2px;
+} 
+
+input::placeholder{
+    color:grey;
+}
+
+input {
+    background:#ecf0f3;
+    padding:7px;
+    padding-left:10px;
+    height:50px;
+    font-size:16px;
+    border-radius:15px;
+    box-shadow:inset 10px 10px 6px #cbced1, inset -10px -10px 6px #fbfbfa; /*inset le shadow bhitra tira lagdinxa*/
+}
+
+button {
+    color:white;
+    margin-bottom:500px;
+    background:#1d92f2;
+    border-radius:20px;
+    height:40px;
+    font-weight:bold;
+    cursor:pointer;    /*to change the cursor on hovering to login button */
+    box-shadow: 10px 10px 8px #cbced1, -10px -10px 8px #fbfbfa;
+    transition: 2s;
+}
+
+button:hover{
+     box-shadow:none;
+}
+
+a{
+    position:absolute;
+    font-size:10px;
+    bottom: 10px;
+    right:10px;
+    color:white;
+    background:rgb(155, 196, 231);
+    border-radius:10px;
+    padding:2px;
+    text-decoration:none;
+}
+
