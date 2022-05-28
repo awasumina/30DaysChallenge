@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    }
+
+.gridContainer1{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    margin: 20px;
+    background-color: white;
+    width: 800px;
+    height: 255px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.first{
+   background-color: red; 
+   grid-column: 1 / 3;
+}
+
+.second{
+    background-color: blue;
+}
+
+.third{
+    background-color: green;
+}
+
+.fourth{
+    background-color: purple;
+    grid-column: 2/4;
+}
+
+.fifth{
+    background-color: yellow;
+    grid-column: 1 /4;
+}
+
+.gridContainer2{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    background-color: white;
+    width: 800px;
+    height: 255px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+
+}
+.sixth{
+    background-color: brown;
+    grid-column: 1/4;
+
+}
+
+.seventh{
+    background-color: darkgoldenrod;
+    grid-row: 1/3;
+    grid-column: 4;  /*send the 7 wala div block into 4th column, rakhena vane goes at top*/
+
+}
+
+.eight{
+    background-color: purple;
+    grid-row: 2/4;
+    grid-column: 1; /* 1st column ma janxa*/
+}
+
+.ninth{
+    background-color: cyan;
+    grid-column: 2/4;
+}
+
+.tenth{
+    background-color: greenyellow;
+}
+
+.eleven{
+    background-color: aqua;
+    grid-row: 3/5;
+    grid-column: 3;
+}
+
+.twelve{
+    background-color: pink;
+    grid-row: 3/5;
+    grid-column: 4;
+}
+
+.thirteen{
+    background-color: seagreen;
+    grid-column:1/3 ;    /*2 ta column box lai merge gardinxa*/
+}
+
+
+
+.gridContainer3{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    background-color: white;
+    width: 800px;
+    margin: 20px;
+    height: 255px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.aa{
+    background-color: darkblue;
+    grid-column: 1/4;
+}
+
+.bb{
+    background-color:rebeccapurple;
+}
+
+.cc{
+    background-color:antiquewhite;
+    grid-row: 2/4;
+    grid-column: 2;
+}
+
+.dd{
+    background-color:hotpink;
+}
+
+.ee{
+    background-color:darkviolet;
+    grid-row:3/5;
+}
+
+.ff{
+    background-color:honeydew;
+}
+
+.gg{
+    background-color:burlywood;
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+
+.gridContainer4{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    background-color: white;
+    width: 800px;
+    margin: 20px;
+    height: 255px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.hh{
+    background-color:honeydew;
+    grid-row:1/5
+}
+
+.ii{
+    background-color:darkblue;
+    grid-column: 2/4;
+}
+
+.jj{
+    grid-row: 1/6;
+    grid-column: 4;
+    background-color:saddlebrown;
+}
+
+.kk{
+    background-color:gainsboro;
+}
+
+.ll{
+    background-color:tan
+}
+
+.mm{
+    background-color:yellow;
+    grid-column: 2/4; 
+}
+
+.nn{
+    background-color:magenta;
+}
+
+.pp{
+    background-color:aquamarine;
+    grid-column: 1/3;
+}
+
+.qq{
+    background-color:goldenrod;
+    grid-column: 3;
+}
+
+
