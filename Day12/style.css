@@ -1,0 +1,50 @@
+body{
+  background-color: wheat;
+}
+h1 {
+    color: white;
+    text-shadow: 4px 5px 5px #7c0760; /*horizontal vertical blur*/
+  }
+
+  span {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+  /* .boxShadow{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 10px lightblue; horizontal vertical blur
+  }
+
+  .normal {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  #myDiv {
+    transform: rotateX(150deg);
+  } */
+
+  .car {
+    width: 160px;
+    height: 90px;
+    background-color: red;
+    position: relative;
+    animation: mymove 8s infinite;
+  }
+  
+  #div1 {animation-timing-function: linear;}
+  #div2 {animation-timing-function: ease;}
+  #div3 {animation-timing-function: ease-in;}
+  #div4 {animation-timing-function: ease-out;}
+  #div5 {animation-timing-function: ease-in-out;}
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 1110px;}
+  }
