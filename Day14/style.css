@@ -1,0 +1,114 @@
+body{
+    background-color: #100c14;
+    padding: 0;
+    margin: 0;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+p, span{
+    color: white;
+}
+
+#search{
+    width: 250px;
+    margin-left: -250px;
+    border: 1px solid white;
+    height: 21px;
+    border-radius: 5px;
+    background-color:#100c14 ;
+    text-align: center;
+}
+.head{
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.head2{
+    font-size: 13px;
+    justify-content: space-between;
+    margin-left: 410px;
+}
+
+#mypic{
+    border-radius: 50%;
+    width: 260px;
+    height: auto;
+    border: 1.5px solid white;
+}
+
+.left{
+    width: 270px;
+    margin-left: 130px;
+    margin-top: -40px;
+    float: left;
+}
+
+#editprofile{
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #272b33;
+    color: white;
+    border: 1px solid white;
+}
+
+.right{
+    float: right;
+    width: 920px;
+    margin-right: 40px;
+}
+
+.hi{
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 90px;
+    width: 750px;
+
+}
+
+.a30days{
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 90px;
+    width: 350px;
+}
+
+.public{
+    background-color: #100c14;
+     color: white; 
+     border: 1px solid white; 
+     border-radius: 15px;
+     font-size: 11px;
+}
+
+.sumina{
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 90px;
+    width: 350px;
+    margin-right: 170px;
+
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
