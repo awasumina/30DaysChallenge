@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("https://source.unsplash.com/G8rRItjrwkA");
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:Verdana;
+}
+
+.menubar{
+    width:100%;
+    height: 120px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left:30px;
+    font-family:Lato;
+    font-size:1.1rem;
+    }
+
+.menubar li{
+    display: inline-block;
+    text-decoration: none;
+    color:antiquewhite;
+    padding: 10px;
+    margin:10px;
+} 
+#myButton{
+    margin:0 55px ;
+    padding:10px;
+    border-radius:25px;
+    border-color:rgba(15, 12, 12, 0.137);
+    background-color:rgba(15, 12, 12, 0.137);
+    font-family:Poppins;
+    font-size:15px;
+    font-weight:500;
+}
+
+#myButton:hover{
+    box-shadow:5px 8px 5px rgba(15, 12, 12, 0.137);
+}
+
+.menubar a{
+    text-decoration: none;
+    color:rgba(255, 254, 254, 0.918);
+}
+
+.active, .menubar li:hover{
+    border-radius:6px;
+    background: rgba(24, 20, 20, 0.479);
+}
+
+.menubar .fa{
+    margin-right:8px;
+}
+
+.div1{
+    display:none;
+}
+
+.menubar ul li:hover .div1{
+    display: block;
+    position: absolute;
+    margin-left: -10px;
+    margin-top:12px;
+    background: rgba(15, 12, 12, 0.137);
+    text-align:left;
+    width:140px;
+}
+
+.menubar ul li:hover .div1 ul li{
+    display:block;
+
+}
+ .menubar ul li:hover .div1 ul li:last-child{
+     border-bottom:1px groove maroon;
+ }
+
+ .menubar ul li:hover .div1 ul li:last-child:hover{
+     border-bottom:none;
+ }
+
+ .menubar ul li:hover .div1 ul li a:hover{
+     color:rgba(202, 113, 202, 0.767);
+     border-width: 0;
+ }
+
+ .menubar ul li .div1  li:hover{
+     border-width:0;
+ }
+
+ .div2{
+     display:none;
+ }
+
+ .menubar ul li:hover .div2{
+     display: block;
+     position:absolute;
+     background: rgba(15, 12, 12, 0.137);
+     margin-left:-8px;
+     margin-top:12px;
+     width:140px;
+ }
+
+ .menubar ul li:hover .div2 ul li{
+     display: block;
+ }
+
+
+
+ .menubar ul li:hover .div2 ul li a:hover{
+     border-radius:none;
+     color:maroon;
+ }
+
+ .div3{
+     display:none;
+ }
+
+ .menubar ul li:hover .div3{
+     display: block;
+    position: absolute;
+    margin-left:-10px;
+    margin-top:12px;
+    background: rgba(15, 12, 12, 0.137);
+    width:200px;
+}
+
+ .div3 ul li{
+    font-family:Lato;
+}
+
+.div3 ul li:hover{
+  border-radius: 0px;
+}
+
+.div3 ul li a:hover{
+    color:cornflowerblue;
+    font-weight: bolder;
+}
+
+.fa-angle-right{
+    float:right;
+}
+
+.myClass {
+    display: none;
+    width:115px;
+}
+
+.submenu li:hover .myClass{
+    display: block;
+    position:absolute;
+    margin-left:30px;
+    margin-top:-30px;
+    background: rgb(112, 155, 140);
+} 
+
+.myClass2{
+    display:none;
+    width:100px;
+}
+
+.submenu li:hover .myClass2{
+    display:block;
+    position:absolute;
+    background: rgb(112, 155, 140);
+    margin: -30px 0 0 110px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    color: whitesmoke;
+}
+
+#text{
+    font-family: Lato;
+    font-size:3rem;
+}
+
+.fill{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+     margin: 30px 0 0 0; 
+ 
+}
+
+#fill-it{
+    width:380px;
+    height:52px;
+    font-size:16px;
+    text-align:center;
+}
+
+#btn{
+    width:110px;
+    height:52px;
+    background-color:#d73851;
+    color:white;
+    border-color:#d73851;
+    margin-top:2px;
+}
+
+/* @media all and (max-width:360px) {
+    header nav li{
+      margin: 0 10px;
+    }
+   */
+

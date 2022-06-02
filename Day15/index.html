@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menubar">
+        <ul>
+            <li class="active"> <a href="#"><i class="fa fa-home"></i>Home</a> </li>
+
+            <li class="submenu"> <a href="#"><i class="fa fa-user"></i>About Us</a>
+                <div class="div1">
+                    <ul>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#"></i>Staff</a><i class="fa fa-angle-right">
+                            
+                            <div class="myClass">
+                                <ul
+                                    <li><a href="#">Staff 1</a></li>
+                                    <li><a href="#">Staff 2</a></li>
+                                    <li><a href="#">Staff 3</a></li>
+                                </ul>
+                                
+                            </div>
+                        </i></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="submenu"> <a href="#"><i class="fa fa-plane"></i>Flights</a>
+
+                <div class="div2">
+                    <ul>
+                        <li ><a href="#">Morning</a><i class="fa fa-angle-right"></i>
+                            <div class="myClass2">
+                                <ul>
+                                    <li><a href="#">Flight A</a></li>
+                                    <li><a href="#">Flight B</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Day</a><i class="fa fa-angle-right"></i>
+                            <div class="myClass2">
+                                <ul>
+                                    <li><a href="#">Flight A</a></li>
+                                    <li><a href="#">Flight B</a></li>
+                                </ul>
+                            </div>
+                         </li>
+                        <li><a href="#">Evening</a><i class="fa fa-angle-right"></i>
+                            <div class="myClass2">
+                                <ul>
+                                    <li><a href="#">Flight A</a></li>
+                                    <li><a href="#">Flight B</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Night</a><i class="fa fa-angle-right"></i>
+                            <div class="myClass2">
+                                <ul>
+                                    <li><a href="#">Flight A</a></li>
+                                    <li><a href="#">Flight B</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            
+            </li>
+
+            <li> <a href="#"><i class="fa fa-check"></i>Tours</a></li>
+
+            <li> <a href="#"><i class="fa fa-phone"></i>Contact</a>
+            <div class="div3">
+                <ul>
+                    <li><a href="#">+977 9860065060</a></li>
+                    <li><a href="#">+977 9818779900</a></li>
+                    <li><a href="#">+977 9614453453</a></li>
+                </ul>
+            </div>
+            
+            </li>
+
+            <button id="myButton"> Register/Log In</button>
+        </ul>
+    </div>
+
+    <main>
+        <div class="content">
+            <h1 id="text">Discover what's out there.</h1>
+        </div>
+
+        <div class="fill">
+            <input type="text" id="fill-it" placeholder="Where do you want to go?" />
+            <input type="submit" id="btn" value="Search">
+        </div>
+    </main>
+    
+</body>
+</html>
