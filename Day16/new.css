@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    background: rgb(107, 97, 97);
+}
+
+nav{
+    background: #154c79d8;
+    width:100%;
+    height:90px;
+}
+
+label.logo{
+    color:whitesmoke;
+    font-weight:1.2rem;
+    font-size:30px;
+    line-height:90px;
+    padding:0 60px;
+}
+
+nav ul{
+    float: right;
+    margin-right:25px;
+}
+
+nav li{
+    display: inline-block;
+    line-height:90px;
+    margin: 0 35px;
+}
+
+nav a{
+    color:whitesmoke;
+    font-size:17px;
+}
+
+nav a:hover{
+    background-color: rgba(24, 20, 20, 0.479);
+    border-radius:10px;
+    padding:10px;
+    transition: 1s;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size:30px;
+    color:whitesmoke;
+    float: right;
+    line-height: 90px;
+    margin-right:30px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 1140px){
+    label.logo{
+        font-size:1.2rem;
+        padding-left:100px;
+    }
+
+    nav ul li a{
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .checkbtn{
+        display: block;
+    }
+
+    label.logo{
+        font-size:2rem;
+        padding-left:50px;
+    }
+
+    nav ul li a{
+        font-size:24px;
+      
+    }
+    
+    nav ul{
+          position: fixed;
+          width:100%;
+          height:100vh;
+          background: rgb(31, 155, 155);
+          top:91px;
+          text-align:center;
+          cursor: pointer;
+    }
+
+    nav ul li{
+        display: block;
+        margin:50px 0px;
+        line-height: 70px;
+        
+    }
+
+   #check:checked ~ ul{
+       left:0;
+   }
+}
+ 
+@media only screen and (max-width: 450px){
+  
+    label.logo{
+        font-size: 1.3rem;
+    }
+
+    nav ul{
+        background:rgba(122, 44, 194, 0.918);
+    }
+    nav ul li a{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 330px){
+  
+    label.logo{
+        font-size: 1rem;
+    }
+    nav ul li a{
+        display: none;
+    }
+}
+@media only screen and (max-width: 330px){
+  
+    label.logo{
+        font-size: 0.8rem;
+    }
+}
+
+section{
+    background: url("web.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 90px);
+}
