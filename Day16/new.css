@@ -110,6 +110,7 @@ nav a:hover{
    #check:checked ~ ul{
        left:0;
    }
+   
 }
  
 @media only screen and (max-width: 450px){
