@@ -133,7 +133,7 @@ nav a:hover{
     }
     nav ul li a{
         display: none;
-    }
+    }  
 }
 @media only screen and (max-width: 330px){
   

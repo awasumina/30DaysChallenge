@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+
+/*For the nav bar*/
+.head{
+    display: flex;
+    width: 200vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000309;
+    height: 40px;
+    position:fixed;  /*so that nav bar jaile mathi nai hoss scroll garda pani*/
+   
+}
+
+#menu{
+    display: none;
+}
+li{
+    display: inline;
+    margin-left: 38px;
+}
+
+.topText{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+
+.fa{
+    color: white;
+}
+
+.fa-search, .fa-shopping-bag{
+    margin-left: 38px;
+}
+
+/*first section*/
+.firstPart{
+    background: linear-gradient(#020D1F 16%, black 35%); /*for the gradient at top of the first section */
+    height: 1100px;
+
+    
+}
+
+.topImage{
+    margin: 70px 20% 0 15%;
+    
+}
+
+.WWDC22{
+    margin: -100px 300px 10px 450px;
+}
+
+.introducing{
+    color: #c6e2e6;
+    margin: 0 30%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#watch{
+    border-radius: 45px;
+    width: 180px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c6e2e6;
+    border: 2px solid #c6e2e6;
+    background-color: #000309;
+    margin: 2% 44%;
+}
+
+#watch:hover{
+    background-color: #c6e2e6;
+    color:#000309;
+}
+
+
+/*second Section*/
+.MacBookAir{
+    background-color: #ffffff;
+    padding-bottom: 10%;
+}
+
+.Name{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.macbookImg{
+    margin: 5% 25%;
+    
+}
+
+.Description{
+    text-align: center;
+    font-size: 21px;
+    line-height: 130%;
+}
+
+.superchargedAndM2 , .learnView{
+    /* width: 17%; */
+    display: flex;
+    align-items: center;
+    margin: 2% 40%;
+}
+.supercharged{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+#available{
+    text-align: center;
+    color: #87868c;
+}
+
+.learn{
+    width: 120px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.learn:hover{
+    background-color: #000309;
+    color: white;
+}
+
+/*third section of ios16*/
+.IOS16{
+    background-color:#f5f5f7;
+}
+
+.ios16pic{
+    margin: 0 -5%;
+    width: 210vh;
+    z-index: -1;
+}
+.preview{
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: white;
+    margin: 2% 43%;
+}
+
+.preview:hover{
+    background-color: #000309;
+    color: white;
+}
+
+
+/*third section*/
+.watchOS9{
+    background-color: #f5f5f7;
+}
+
+/*fourth section*/
+.macOSVentura{
+    background-color: #f5f5f7;
+}
+.macOSVenturaPic{
+    width: 200vh;
+    margin-bottom: 10%;
+}
+
+/*fifth section*/
+.iPadOS16{
+    background-color: #f5f5f7;
+}
+.iPadOS16Pic{
+    width: 190vh;
+   
+}
+
+/*last section*/
+.MacBookPro13{
+    background-color: #000309;
+    color:white;
+    padding-bottom: 10%;
+}
+
+.macbookName{
+        font-size: 70px;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+.macbook13Img{
+    width: 200vh;
+    margin-bottom: -10%;
+}
+
+.mac13Description{
+        text-align: center;
+        font-size: 21px;
+        line-height: 130%;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 810px){
+    .head{
+        width: 150vh;
+    }
+    
+    .firstPart{
+        width:1900px;
+    }
+
+    .introducing{
+        margin-left: 100px
+    }
+
+    #watch{
+        margin: 2% 34%;
+    }
+
+    .Name{
+        margin-left: 350px;
+    }
+
+    .Description{
+        margin-left: 300px;
+    }
+
+    .superchargedAndM2{
+        margin: 2% 45%;
+    }
+    #available{
+        margin-left: 10px; 
+    }
+    .learnView{
+        margin-left: 45%;
+        width: 240px;
+    }
+    .IOS16, .macOSVentura,.MacBookAir, .MacBookPro13, .iPadOS16, .watchOS9{
+        width: 180vh;
+    }
+
+    .Name{
+        text-align: center;
+        margin-right: 480px;
+        font-size: 60px;
+    }
+    .Description{
+        margin-right: 300px;
+    }
+
+    .macbook13Img, .macOSVenturaPic, .iPadOS16Pic, .ios16pic, .watchOS9pic{
+        width: 140vh;
+        margin-left: 200px;
+    }
+    .MacBookPro13 .superchargedAndM2{
+        margin-right: 500px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1540px) and (min-width: 999px){
+    .head{
+        width: 180vh;
+    }
+    
+    .firstPart{
+        width:1900px;
+    }
+
+    .introducing{
+        margin-left: 100px
+    }
+
+    #watch{
+        margin: 2% 34%;
+    }
+
+    .Name{
+        margin-left: 350px;
+    }
+
+    .Description{
+        margin-left: 300px;
+    }
+
+    .superchargedAndM2{
+        width: 500px;
+        margin: 2% 39%;
+    
+    }
+    #available{
+        margin-left: -99px; 
+    }
+    .learnView{
+        margin-left: 39%;
+        width: 240px;
+    }
+    .IOS16, .macOSVentura, .watchOS9, .MacBookAir, .MacBookPro13, .iPadOS16{
+        width: 180vh;
+    }
+
+    .Name{
+        text-align: center;
+        margin-right: 480px;
+        font-size: 60px;
+    }
+    .Description{
+        margin-right: 300px;
+    }
+
+    .macbook13Img, .macOSVenturaPic, .iPadOS16Pic, .ios16pic, .watchOS9pic{
+        width: 140vh;
+        margin-left: 200px;
+    }
+    .MacBookPro13 .superchargedAndM2{
+        margin-right: 500px;
+    }
+}
+
+@media only screen and (max-width: 809px) and (min-width: 300px)
+    {
+        #menu{
+            display: inline;
+            padding-left: 20px;
+        }
+
+        li{
+            display: none;
+        }
+        .head{
+            width: 180vh;
+        }
+        
+        .firstPart{
+            width:1900px;
+        }
+    
+        .introducing{
+            margin-left: 100px
+        }
+    
+        #watch{
+            margin: 2% 34%;
+        }
+    
+        .Name{
+            margin-left: 350px;
+        }
+    
+        .Description{
+            margin-left: 300px;
+        }
+    
+        .superchargedAndM2{
+            margin: 2% 39%;
+        }
+        #available{
+            margin-left: -99px; 
+        }
+        .learnView{
+            margin-left: 39%;
+            width: 240px;
+        }
+        .IOS16, .macOSVentura, .watchOS9, .MacBookAir, .MacBookPro13, .iPadOS16{
+            width: 180vh;
+        }
+    
+        .Name{
+            text-align: center;
+            margin-right: 480px;
+            font-size: 60px;
+        }
+        .Description{
+            margin-right: 300px;
+        }
+    
+        .macbook13Img, .macOSVenturaPic, .iPadOS16Pic, .ios16pic, .watchOS9pic{
+            width: 140vh;
+        }
+        .MacBookPro13 .superchargedAndM2{
+            margin-right: 500px;
+        }
+    }
+
+    
