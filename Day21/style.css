@@ -1,0 +1,167 @@
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: black;
+     height: 51px;
+     padding-left: 10px;
+ }
+ li{
+     display: inline-block;
+    } 
+
+a{
+    text-decoration: none;
+    color: rgb(220, 218, 218);
+    font-size: 14px;
+    padding-left: 19px;
+}
+.fa-bars{
+    color: white;
+}
+.fa-user{
+    color: white;
+    margin-left: 920px;
+}
+.fa-search{
+    color: white;
+    margin-left: 12px;
+}
+
+/**header part*/
+.main{
+    width: 180vh;
+    margin: 0 100px;
+    /* display: flex; */
+}
+.kathmanduPostPic{
+    width: 600px;
+    margin: 0% 25%;
+}
+.dateTEmperature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(214, 9, 9);
+}
+.date{
+    font-size: 13px;
+    color: gray;
+   }
+.Fear{
+    font-size: 20px;
+    font-weight: bold
+}
+.cloud{
+    width: 35px;
+    float: right;
+    margin-right: -440px;
+}
+
+.temperature{
+    font-size: 13px;
+    color: gray;
+}
+
+.whatNews{
+    font-size: 18px;
+    font-weight: 530;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(179, 168, 168);
+}
+.what{
+    color: red;
+}
+
+/*left section*/
+.left{
+    margin:20px;
+    float: left;
+    border-right: 1px solid rgb(179, 168, 168);
+    width: 400px;
+}
+.news{
+    margin-top: 20px;
+}
+.title{
+    font-size: 19px;
+    font-weight: 550;
+    color: rgb(81, 79, 79);
+}
+.author{
+    margin: 14px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+.PicDescription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    border-bottom: 1px solid rgb(179, 168, 168);
+    padding-bottom: 10px;
+}
+.Description{
+    color: rgb(98, 97, 97);
+    font-size: 17px;
+}
+.Casepic{
+    width: 150px;
+    margin: 0 10px;
+}
+
+
+/*middle*/
+.middle{
+    width: 500px;
+    margin-left: 430px;
+    padding-bottom: 10px;
+    border-right: 1px solid rgb(179, 168, 168);
+}
+
+.house{
+    width: 480px;
+}
+#newOfLandowners{
+    font-size: 21px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+#Inaruwa{
+    margin: 10px;
+}
+
+/*right*/
+.right{
+    margin:20px;
+    margin-right: 90px;
+    margin-top: -470px;
+    float: right;
+    width: 310px;
+}
+     
+.nepal{
+    width: 250px;
+    margin: 10px;
+    border: 1px solid rgb(179, 168, 168);
+    padding: 10px;
+ }
+ .sideTitle{
+     color: red;
+     font-weight: 550;
+     font-size: 15px;
+ }
+ #harmony{
+     border-top: 1px solid rgb(179, 168, 168);
+ }
