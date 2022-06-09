@@ -3,9 +3,8 @@
      margin: 0;
      box-sizing: border-box;
  }
-
  nav{
-     display: flex;
+     display: flex;  
      align-items: center;
      justify-content: space-between;
      background-color: black;
