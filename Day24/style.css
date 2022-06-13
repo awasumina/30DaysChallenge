@@ -85,8 +85,6 @@ form .buttons{
     display: flex;
     align-items: center;
 }
-
-
 @media (max-width: 750px) {
     .container form{
         overflow-y: scroll;
