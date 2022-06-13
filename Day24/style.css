@@ -1,0 +1,106 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #02325a; */
+    background: linear-gradient(#345ea2 16%, rgb(43, 5, 113) 35%);
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    /* box-shadow: 15px 15px 20px 3px #cbced1, -15px -15px 20px 2px #fbfbfa; */
+}
+header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(114, 112, 112);
+}
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+   
+}
+.container form .form{
+    position: absolute;
+    background-color: #fff;
+}
+
+.container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form .fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 15px);   /*so that 3 input gets aligned*/
+    flex-direction: column;
+    margin: 4px 0;
+}
+.input-field label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #848181;
+}
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: none;
+    /* border: 1px solid rgb(199, 168, 168); */
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    box-shadow: 5px 5px 10px 1px #cbced1, -10px -10px 10px 1px #fbfbfa;
+}
+.submit{
+    height: 45px;
+    width: 170px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #063e76;
+    margin-bottom: 50px;
+}
+form .buttons{
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 750px) {
+    .container form{
+        overflow-y: scroll;
+    }
+    .container form::-webkit-scrollbar{
+       display: none;
+    }
+    form .fields .input-field{
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field{
+        width: 100%;
+    }
+}
