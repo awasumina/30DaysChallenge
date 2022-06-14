@@ -1,0 +1,44 @@
+section:has(h2) {               /*is dtill not supported by lastest browser*/
+    background: rgb(58, 26, 37);
+}
+h2{
+    color: yellow;
+}
+.box1{
+    background-color: pink;
+}
+section:has(h2) img {                /*is dtill not supported by lastest browser*/
+    border: 5px solid lime;
+}
+
+/* :root {                  for applying it everywhere
+    accent-color: lime;
+} */
+
+
+form {
+    accent-color: lime;
+}
+
+input[type="checkbox"] {                /*it is applicable and checkbox color is pink when ticked*/
+    accent-color: hotpink;
+}
+
+/*supported in safari*/
+/* Output the color with the highest contrast */
+.my-element {
+    color: purple;
+    width: 100px;
+    background-color: color-contrast(white vs, lightblue, lime, blue);
+}
+
+/* Output the first color that meets AA contrast ratio */
+.my-element {
+    color: orange;
+    background-color: color-contrast(white vs, lightblue, lime, blue to AA);
+}
+
+.my-element {
+    background-color: lch(80% 100 50); /* opaque color */
+  }
+
