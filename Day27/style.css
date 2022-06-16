@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+  
+
+}
+
+
+
+
+
+
+/* section1 */
+#one {
+    margin: 0 25%;
+    width: 800px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    margin-top: 50px;
+}
+
+#two {
+    margin: 0 29%;
+    width: 600px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        background-color: rgb(230, 110, 182);
+    }
+    to {
+        background-color: white;
+    }
+}
+
+
+
+/*section 2*/
+h2 {
+    width: 100%;
+    animation-name: text1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#oneA{
+    animation-direction: normal;
+    color: palegoldenrod;
+}
+
+
+#twoB{
+    animation-direction: alternate;
+    color: aqua;
+}
+#threeC{
+    animation-direction: alternate-reverse;
+    color: aliceblue;
+}
+
+
+
+
+@keyframes text1 {
+    from {
+        margin-left: 60%;
+    }
+    to {
+        margin-left: 0%;
+  
+    }
+}
+
+
+/*section3*/
+
+#mainOne {
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#subOne {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    padding-bottom: 5px;
+
+}
+
+#subTwo {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+@keyframes text {
+    from {
+        margin-top: 400px;
+
+    }
+    to {
+        margin-top: 0px;
+    }
+}
