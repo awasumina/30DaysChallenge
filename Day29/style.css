@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Montserrat:wght@300;500&family=Roboto+Mono:wght@600&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Montserrat:wght@300;500&family=Roboto&family=Roboto+Mono:wght@600&family=Source+Sans+Pro:wght@300&display=swap');
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top{
+    background-image: url("harvard.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 205vh;
+    height: 100vh;
+}
+
+.head{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 200vh;
+}
+.harvard{
+    width: 65px;
+    height: auto;
+    margin: 15px;
+    
+}
+
+.name{
+   margin-top: 15px;
+}
+
+li{
+    margin: 35px;
+    font-size: 17px;
+    width: 300px;
+   
+}
+
+ul {
+    list-style: none;               /* to make the bullet red color*/
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.searchMenu{
+    display: flex;
+    margin-left: 38%;
+}
+
+.search , .menu{
+    width: 140px;
+    height: 70px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+
+
+#celebrating{
+    font-family:serif;
+    font-size: 110px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: lighter;
+}
+
+#meet{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.leftText{
+    width: 33%;
+    float: right;
+    margin: 105px;
+}
+
+#aYear{
+    font-size: 40px;
+    font-family: serif;
+    font-weight: lighter;
+    line-height: 2;
+}
+#atHarvard{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.buttonLeftLearn{
+    display: flex;
+    align-items: center;
+}
+
+.fa-arrow-circle-right{
+   color: gray;
+}
+#learn{
+    font-weight: lighter;
+    font-size: 19px;
+    font-family: 'Alegreya', serif;
+}
+
+.downPart{
+    background-image: linear-gradient(#e2b5b0,white);
+    height: 20vh;
+}
+
+.KaileyPic{
+    float: right;
+    width: 500px;
+    margin: 10px 50px 50px 50px;
+}
+
+.thereIsNo{
+    font-family: 'Alegreya', serif;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-top: 150px;
+}
+
+.kailey{
+    font-weight: 600;  
+}
+.textFromKailey{
+    float: left;
+    margin-left: 45px;
+}
+.neuroscience{
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 1383px) and (min-width: 500px){
+    .searchMenu{
+        margin-left: 20%;
+    }
+    .leftText{
+        width: 34%;
+        float: right;
+        margin: 105px 195px 105px 125px;
+    }
+   .downPart{
+       width: 190vh;
+      
+   }
+   .KaileyPic{
+    float: right;
+    width: 400px;
+    margin: -400px 110px 50px 50px;
+}
+    
+}
+
+
+@media only screen and (max-width: 499px) and (min-width: 200px){
+    .searchMenu{
+        display: none;
+    }
+
+    #celebrating{
+        font-size: 100px;
+    }
+    .thereIsNo{
+        font-size: 40px;
+    }
+    .neuroscience{
+        font-size: 15px;
+    }
+    .kailey{
+        font-size: 19px;
+    }
+    .buttonLeftLearn{
+        font-size: 25px;
+    }
+    .leftText{
+        width: 33%;
+        float: right;
+        margin: 80px 35px 0px 0px;
+    }
+    #aYear{
+        font-size: 32px;
+    }
+    #atHarvard, #learn{
+        font-size: 12px;
+    }
+    
+   .downPart{
+       width: 210vh;
+   }
+   .KaileyPic{
+    float: right;
+    width: 410px;
+    margin: 140px 250px 50px 50px;
+}
+
+li{
+    display: none;
+}
+
+} 
