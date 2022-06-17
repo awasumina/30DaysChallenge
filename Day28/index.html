@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employee Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+  
+  <script>
+   
+    function myFunction2 () {
+        location.replace("form.html");
+    };
+ 
+</script>
+  
+</head>
+<body>
+  <div class="container" id="section1">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="admin.png">
+          <span class="nav-item">Admin</span>
+        </a></
+        <li><a href="#section1">
+          <i class="fa fa-folder-open"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="#section2">
+          <i class="fa-solid fa-user-secret"></i> 
+          <span class="nav-item">Manager</span>
+        </a></li>
+        <li><a href="#section3">
+          <i class="fa-solid fa-users"></i> 
+           <span class="nav-item">Assistant</span>
+        </a></li>
+        <li><a href="#section4">
+          <i class="fa fa-credit-card-alt"></i>
+          <span class="nav-item">Salary</span>
+        </a></li>
+        
+
+        <li><a href="home.php" class="logout">
+          <i class="fa fa-sign-out"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
+
+
+    <section class="main">
+      <div class="main-top">
+        <h1>Managers</h1>
+        <i class="fas fa-user-cog"></i>
+      </div>
+      <div class="users">
+        <div class="card">
+          <img src="useri.jpg">
+          <h4>Elon Musk</h4>
+          <p>CEO</p>
+          <button>Profile</button>
+        </div>
+        <div class="card">
+          <img src="userii.jpg">
+          <h4>Babil kherr</h4>
+          <p>Managing Director</p>
+          <button>Profile</button>
+        </div>
+        <div class="card">
+          <img src="useriii.jpeg">
+          <h4>Badani John</h4>
+          <p>Director</p>
+          <button>Profile</button>
+        </div>
+        <div class="card">
+          <img src="user2.jpg">
+          <h4>Salina Micheal</h4>
+          <p>Sales Manager</p>
+          <button>Profile</button>
+        </div>
+      </div>
+
+      <section class="teachers" id ="section2">
+        <div class="teachers-list">
+          <h1>Manager List</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Rank</th>
+                <th>Phone Number</th>
+                <th colspan="2"> <button  onclick = "myFunction1()" >ADD +</button></th>
+                
+              </tr>
+            </thead>
+           
+            <tbody>
+            
+                <td>68300</td>
+                <td>Elon </td>
+                <td>Musk</td>
+                <td>CEO</td>
+                <td>9801034455</td>
+
+    
+            </tbody>
+
+            <tbody>
+            
+                <td>68301</td>
+                <td>Babil</td>
+                <td>Kher</td>
+                <td>Managing Director</td>
+                <td>9824103425</td>
+    
+            </tbody>
+
+            <tbody>
+            
+                <td>68302</td>
+                <td>Badani</td>
+                <td>John</td>
+                <td>Director</td>
+                <td>9833224455</td>
+    
+            </tbody>
+
+            <tbody>
+            
+                <td>68303</td>
+                <td>Salina</td>
+                <td>Micheal</td>
+                <td>Sales Manager</td>
+                <td>9861445566</td>
+    
+            </tbody>
+
+          
+
+          </table>
+        </div>
+      </section>
+      
+      <section class="teachers" id="section3">
+        <div class="teachers-list">
+          <h1> Assistant List</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Level</th>
+                <th>Phone Number</th>
+                <th colspan="2"> <button  onclick = "myFunction2()" >ADD +</button></th>
+
+              </tr>
+            </thead>
+            
+  
+            <tbody>
+            
+                <td>68310</td>
+                <td>Alexa</td>
+                <td>Depp</td>
+                <td>1st Level</td>
+                <td>9800340022</td>
+    
+            </tbody>
+
+            <tbody>
+            
+                <td>68315</td>
+                <td>Siri</td>
+                <td>Breks</td>
+                <td>2nd Level</td>
+                <td>9804337788</td>
+    
+            </tbody>
+            <tbody>
+            
+                <td>68320</td>
+                <td>John</td>
+                <td>Castle</td>
+                <td>3rd Level</td>
+                <td>9818677615</td>
+    
+            </tbody>
+            <tbody>
+            
+                <td>68325</td>
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>4th Level</td>
+                <td>9813122948</td>
+    
+            </tbody>
+
+
+          </table>
+        </div>
+      </section>
+      <section class="teachers" id="section4">
+        <div class="teachers-list">
+          <h1> Salary</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Post</th>
+                <th>Monthly</th>
+                <th>Work-Hours</th>
+                <th>Department</th>
+                <th colspan="2"> <button  onclick = "myFunction3()" >ADD +</button></th>
+              </tr>
+            </thead>
+
+            <tbody>
+                <td>CEO</td>
+                <td>120,000</td>
+                <td>8</td>
+                <td>Company</td>
+            </tbody>
+
+            <tbody>
+                <td>Sales Manager</td>
+                <td>80,000</td>
+                <td>9</td>
+                <td>Sales</td>
+            </tbody>
+                
+            <tbody>
+                <td>Assistant</td>
+                <td>50,000</td>
+                <td>10</td>
+                <td>Related Department</td>
+            </tbody>
+                
+
+
+            <tbody>
+                <td>Director</td>
+                <td>88,000</td>
+                <td>8</td>
+                <td>Company</td>
+            </tbody>
+                
+    
+
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>
